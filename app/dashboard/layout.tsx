@@ -101,7 +101,7 @@ export default function DashboardLayout({
       )}
 
       {/* ======================= MAIN CONTENT ======================= */}
-      <main className="flex-1 md:ml-80">
+      <main className="flex-1 md:ml-80 bg-[#EEF7FF]">
 
         {/* Top Navbar */}
         <div className="flex justify-between items-center bg-white p-5 shadow-sm">
@@ -126,10 +126,10 @@ export default function DashboardLayout({
           </div>
 
           <div className="flex gap-5 items-center">
-            <div className="bg-primary px-3 flex justify-center items-center rounded-md text-white">
+            <div className="bg-primary p-2 flex justify-center items-center rounded-md text-white">
               <IoIosNotifications className="text-2xl" />
             </div>
-            <div className="bg-primary px-3 flex justify-center items-center rounded-md text-white">
+            <div className="bg-primary p-2 flex justify-center items-center rounded-md text-white">
               <SlCalender className="text-2xl" />
             </div>
             <div className="hidden sm:block">
