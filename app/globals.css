@@ -6,7 +6,6 @@
 }
 
 @theme inline {
-
   --color-primary: #5272FF;
   --color-secondary: var(--secondary);
   --color-background: var(--background);
